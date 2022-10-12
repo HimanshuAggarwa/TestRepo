@@ -25,7 +25,7 @@ public class baseClass {
         ChromeOptions options= new ChromeOptions();
         options.addArguments("--start-maximized");
         wb= new ChromeDriver(options);
-        wb.get("WEB_URL");
+        wb.get("https://ejalshakti.gov.in/WQMIS/Home/login_register?role_id=hSirOimZ58WUkA7gF7p9Rw==");
     }
 
     @AfterSuite
